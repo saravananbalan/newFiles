@@ -1,0 +1,49 @@
+<html>
+<head>
+<script type = "text/javascript" src = "/home/cangouser01/Documents/sample.js"> 
+</script>
+</head>
+<body>
+<form>
+<input type = "button" value = "add" OnClick="fun(10,20,'sum')"/></br>
+<input type = "button" value = "sub" OnClick="sub(10,20)"/></br>
+<input type = "button" value = "name" OnClick="names('cango')"/> </br>
+<input type = "button" value = "click" OnClick="promp()"/> </br>
+<input type = "button" value = "urlClick" OnClick="url()"/> </br>
+</form>
+<form name = "newForm">
+<input type = "text" name = "name"/>
+<input type = "button" value = "submit" OnClick ="username()"/></br>
+</form>
+<form>
+<input type = "text" id="number" name ="number"/>
+<input type = "button" value = "submit" OnClick="submit()"/></br>
+</form>
+<form>
+Male:<input type = "radio" name ="gender" value ="male"/>
+Female:<input type ="radio" name ="gender" value ="female"/>
+<input type ="button" value="cal" OnClick="radioVal()"/>
+</form>
+<form>
+<input type = "button" value = "click" OnClick="innerht()">
+<div id = "a"></div>
+</form>
+
+<form name = "passName">
+<input type = "password" name = "pass" value ="" onkeyup="checkPass()">
+pass:<span id="e" >type password </span>
+</form>
+
+<form name = "validateForm" onsubmit="return validate()"></br>
+Name:<input type ="text" name="name"/></br>
+Password:<input type ="password" name = "password"/></br>
+Retype Password:<input type ="password" name="password1"/></br>
+<input type ="submit" value = "register"/>
+</form>
+
+<form name = "validate" onsubmit = "return validateEmail()">
+Email:<input type = "text" name = "email"/>
+<input type ="submit" value = "register"/>
+</form>
+</body>
+</html>
